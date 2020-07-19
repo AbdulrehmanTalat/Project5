@@ -18,4 +18,12 @@
         justify-content: center;
         text-align: center;
     }
+    .img{
+        height: 100%;
+        width: 100%;
+    }
+    .txt_div{
+        color: #9fa8a3;
+        width:100%
+    }
     }
