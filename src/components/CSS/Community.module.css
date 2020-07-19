@@ -1,0 +1,14 @@
+.bg{
+    background-color: #c5d5cb !important;
+}
+.items{
+    padding-top:50px;
+    padding-bottom: 50px;
+}
+.img{
+    height: 100%;
+    width: 50%;
+}
+.txt_div{
+    width: 50%;
+}

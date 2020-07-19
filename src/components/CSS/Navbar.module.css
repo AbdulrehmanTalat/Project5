@@ -2,18 +2,19 @@
     flex-grow: 1;
 }
 .appbar{
-    background-color: #0F4848 !important;
+    background-color: #e3e0cf !important;
 }
 .menuButton {
     margin-right: spacing(2);
+    color: #9fa8a3 !important;
 }
 .title {
     flex-grow: 1;
     text-align: center;
-    color: "#ffff"!important;
+    color: #9fa8a3 !important;
 }
 .link {
-    color: aliceblue !important;
+    color: #9fa8a3 !important;
 }
 .shoeicon {
     height: 46;

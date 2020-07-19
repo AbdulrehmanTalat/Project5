@@ -11,7 +11,7 @@ export const Navbar = () => {
         <AppBar position="static" className={style.appbar}>
           <Toolbar>
             <IconButton edge="start" className={style.menuButton} color="inherit" aria-label="menu">
-             C A M O
+             S T Y L E
             </IconButton>
             <Typography variant="h6" className={style.title}>
               <Link className={style.link} to="/">Home</Link>{"  "}

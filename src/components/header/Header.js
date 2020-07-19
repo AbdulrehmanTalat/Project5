@@ -1,32 +1,50 @@
 import React from 'react'
 import style from '../CSS/Header.module.css';
-import Button from  '@material-ui/core/Button';
+import {Carousel, Button} from 'react-bootstrap';
 export const Header = () => {
     return (
-        <div className={style.container}>
-            <div className={style.banner_content}>
-                <h1>
-                    Your web presence just got so
-                    much better
-                </h1>
-                <p>
-                    Your company’s website isn’t just a digital business card or a few
-                    brush strokes here and there. It’s an essential sales channel, and it
-                    has rules. You need it to survive in the jungle of business.				
-                </p>
-                <div className={style.banner_button}>
-                    <Button variant="contained" className={style.btn_primary}>
-                        Work With US
-                    </Button>&nbsp;&nbsp;
-                    <Button variant="outlined" className={style.btn}>
-                        View Our Projects
-                    </Button>
+        <div>
+            <Carousel>
+                <Carousel.Item>
+                    <img src="https://rapidcompute.com/wp-content/uploads/2019/04/cloud-service-slider.jpg" alt=" "/> 
+                    <Carousel.Caption>
+                        <h1 className={style.txt_color}>
+                            Defining
+                        </h1>
+                        <h1 className={style.txt_color}>
+                            Mission Critical
+                        </h1>
+                        <Button className={style.btn_style}>
+                            Find More
+                        </Button>{" "}
+                        <Button className={style.btn_style}>
+                            Sign In
+                        </Button>
+                    </Carousel.Caption>
+                </Carousel.Item>
+                <Carousel.Item>
+                    <img src="https://rapidcompute.com/wp-content/uploads/2019/04/slider-1.jpg" alt=" "/>
+                    <Carousel.Caption>
+                        <h1 className={style.txt_color}>
+                            Secure Cloud
+                        </h1>
+                    </Carousel.Caption>
+                </Carousel.Item>
+                <Carousel.Item>
+                    <img src="https://rapidcompute.com/wp-content/uploads/2019/04/slider-2.jpg" alt=" "/>
+                    <Carousel.Caption>
+                        <h1 className={style.txt_color}>
+                            The New
+                        </h1>
+                        <h1 className={style.txt_color}>
+                            Frontier of Security
+                        </h1>
+                    </Carousel.Caption>
+                </Carousel.Item>
 
-                </div>
-
-            </div>
-
+            </Carousel>
         </div>
-    )
+        
+        )
 }
 export default Header;
