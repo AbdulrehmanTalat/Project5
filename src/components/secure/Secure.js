@@ -23,7 +23,7 @@ export const Secure = () => {
     });
     return (
         <div className={style.bg}> 
-           <Container>
+           <Container className={style.container}>
             <Row className={style.items}>
                 <div ref={animdiv}>
                 <img src={img} className={style.img} alt=" "/>

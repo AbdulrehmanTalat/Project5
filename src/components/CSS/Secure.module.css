@@ -12,3 +12,10 @@
 .txt_div{
     color: #9fa8a3
 }
+@media only screen and (max-width: 770px) {
+    .container{
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    }

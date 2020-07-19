@@ -23,7 +23,7 @@ export const Comunity = () => {
     });
     return (
         <div className={style.bg}> 
-        <Container>
+        <Container className={style.container}>
          <Row className={style.items}>
          <div className={style.txt_div}>
                  <h1>
