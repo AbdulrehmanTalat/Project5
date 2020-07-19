@@ -33,8 +33,14 @@ export const Secure = () => {
                     Maintain Security
                     </h1>
                     <p>
-                    STYLE is merged with complete Encryption 
-                    </p>
+                 Together with the STYLE team and foundation, 
+                 </p>
+                 <p>
+                 Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                 </p>
+                 <p>
+                 ed eget quam vitae orci elementum facilisis.
+                 </p>
                 </div>
             </Row>
            </Container>
